@@ -1,0 +1,73 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<title> Air Pollution Hotspot Analysis
+</title>
+</head>
+<body>
+<div class="jumbotron">
+  <div class="container">
+  <form>
+    <div class="jumbotron">
+		<h1 class="display-4"><b>Air Pollution Hot-Spot Analysis!</b></h1>
+		<p class="lead">This is a prototype ML Model for detecting HotSpots of air pollutions based on particulars such as pollutants, location, year, upcoming years' prediction.</p>
+		<hr class="my-4">
+	</div>
+	<center><h1> Enter Details and Detect Hot-Spots </h1> </center><br>
+	Select State
+	<select class="form-control form-control-lg">
+		
+		<option>Andhra Pradesh </option>
+		<option>Arunachal Pradesh </option>
+		<option>Assam </option>
+		<option>Bihar </option>
+		<option>Chhattisgarh </option>
+		<option>Goa </option>
+		<option>Gujarat </option>
+		<option>Haryana </option>
+		<option>Himachal Pradesh </option>
+		<option>Jammu and Kashmir </option>
+		<option>Jharkhand </option>
+		<option>Karnataka </option>
+		<option>Kerala </option>
+		<option>Madhya Pradesh </option>
+		<option>Maharashtra </option>
+		<option>Manipur </option>
+		<option>Meghalaya </option>
+		<option>Mizoram </option>
+		<option>Nagaland </option>
+		<option>Odisha</option>
+		<option>Punjab </option>
+		<option>Rajasthan </option>
+		<option>Sikkim </option>
+		<option>Tamil Nadu </option>
+		<option>Telangana </option>
+		<option>Tripura </option>
+		<option>Uttar Pradesh </option>
+		<option>Uttarakhand </option>
+		<option>West Bengal</option>
+	</select><hr>
+	Select Pollutant
+	<div class="form-check">
+		<input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="SO2" aria-label="...">
+		<label class="form-check-label" for="inlineCheckbox1">SO<sub>2</sub></label><br>
+		<input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="NO2" aria-label="...">
+		<label class="form-check-label" for="inlineCheckbox1">NO<sub>2</sub></label><br>
+		<input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="SPM" aria-label="...">
+		<label class="form-check-label" for="inlineCheckbox1">SPM</label>
+	</div><hr>Enter Date<br>
+	<div class="input-daterange" id="datepicker">
+		<input type="text" class="input-small" name="start" placeholder="YYYY-MM-DD" required/>
+		<span class="add-on">to</span>
+		<input type="text" class="input-small" name="end" placeholder="YYYY-MM-DD" required/>
+	</div><br><hr>
+	<br>
+	<button class="btn btn-primary" type="submit">Analyse</button>
+</div>
+  
+</form>
+  </div>
+</div>
+
+</body>
+</html>
