@@ -1,5 +1,6 @@
-#Ashutosh Mishra
-#Sk Fayaz
+# SRKR Internal Hackathon for SIH2020 Qualifiers.
+# Model Design - Air Pollution Hotspot Detection
+
 import numpy as np
 import pandas as pd
 import scipy.io
